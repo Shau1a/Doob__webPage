@@ -27,13 +27,16 @@
 .header__title-buttons {
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: baseline;
 	flex-wrap: wrap;
+}
+.header__title-buttons .moreAbout {
+	margin-bottom: 20px;
 }
 .header__title-buttons .getInTouch {
 	font-weight: 600;
 	display: block;
-	padding: 20px 39px 0;
+	padding: 0 39px 0;
 	text-align: center;
 	white-space: nowrap; 
 }

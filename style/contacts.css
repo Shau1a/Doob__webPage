@@ -11,6 +11,11 @@
 	font-weight: 600;
 	display: inline-block;
 }
+.contacts__form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 .contacts__form input, .contacts__form textarea {
 	padding-left: 20px;
 	background: #f4fafe;
@@ -28,6 +33,7 @@
 	resize: none;
 	height: 120px;
 	margin-bottom: 65px;
+	padding-top: 20px;
 }
 .contacts__form input::placeholder, .contacts__form textarea::placeholder {
 	color: #464e90;

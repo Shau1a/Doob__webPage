@@ -34,10 +34,23 @@
 	color: #fff;
 	font-weight: 600;
 }
-
 .footer__links-item:not(:last-child) {
 	margin-right: 44px;
 }
+
+@media screen and (max-width: 540px) {
+	.footer__links {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.footer__links .footer__links-item {
+		margin: 0 0 10px 0;
+	}
+}
+
+
 .footer__authority {
 	display: block;
 	margin: 58px auto 42px;
