@@ -1,0 +1,39 @@
+.contacts {
+	margin-top: 300px;
+}
+.contacts h2 {
+	margin-bottom: 57px;
+}
+.contacts__title {
+	color: #ff4359;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 600;
+	display: inline-block;
+}
+.contacts__form input, .contacts__form textarea {
+	padding-left: 20px;
+	background: #f4fafe;
+	border: none;
+	box-sizing: border-box;
+}
+.contacts__form input {
+	width: calc((100% - 32px) / 2);
+	min-width: 280px;
+	height: 60px;
+	margin-bottom: 37px;
+}
+.contacts__form textarea {
+	width: 100%;
+	resize: none;
+	height: 120px;
+	margin-bottom: 65px;
+}
+.contacts__form input::placeholder, .contacts__form textarea::placeholder {
+	color: #464e90;
+	font-weight: 600;
+	opacity: 1;
+}
+.contacts__form button {
+	margin: 0 auto 60px;
+}

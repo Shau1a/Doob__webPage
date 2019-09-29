@@ -1,0 +1,39 @@
+/* TITLE AND SLICK SLIDER */
+
+.header__block-container {
+ 	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+.header__title {
+	display: block;
+	box-sizing: border-box;
+}
+.header__title h1 {
+	font-size: 3em;
+	margin: 0;
+}
+.header__title p {
+	margin: 46px 0;
+	padding: 0;
+	color: #888491;
+	font-weight: 400;
+	line-height: 1.3em;
+}
+
+
+/* BUTTONS */
+
+.header__title-buttons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.header__title-buttons .getInTouch {
+	font-weight: 600;
+	display: block;
+	padding: 20px 39px 0;
+	text-align: center;
+	white-space: nowrap; 
+}

@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+	#menu__toggle, .menu__btn {
+		display: none;
+	}
+
+	.header__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin-bottom: 100px;
+		width: 100%;
+	}
+	@media screen and (max-width: 1640px) {
+		.header__nav {
+			width: calc(100% - 115px);
+			margin-left: 46px;
+		}
+	}
+	.header__logo {
+		position: static;
+		float: left;
+		padding: 15px 46px 0 0; 
+	} 
+
+	/* NAVBAR LEFT */
+	.header__navbar-left ul {
+		display: block;
+		position: static;
+		visibility: visible;
+		padding: 0; 
+		margin: 0;  
+		background: transparent;
+		box-shadow: none;
+		width: auto;
+		height: auto;
+	}
+	.header__navbar-item:hover {
+		background-color: transparent;
+	}
+
+	.header__navbar-left .header__navbar-item {
+		display: inline-block;
+		list-style: none;
+		padding-right: 46px;
+		padding-bottom: 6px;
+		font-weight: 600;
+		cursor: pointer;
+	} 
+
+	.header__illustration {
+		display: block;
+		width: calc(100% / 2 + 60px);
+		max-width: 632px; 
+		overflow: visible;
+	}
+	.header__illustration img {
+		width: 100%
+	} 
+	.header__title {
+		padding-right: 150px;
+	}
+
+	.portfolio {
+		margin-top: 180px;
+	} 
+}

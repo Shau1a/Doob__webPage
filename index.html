@@ -12,7 +12,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
 	
 	<!-- STYLES -->
-	<link rel="stylesheet" href="style/normalize.css">
 	<link rel="stylesheet" href="style/main.css">
 
 	<title>Doob</title>
@@ -34,10 +33,10 @@
 						</label>
 					<ul class="menu-box">
 						<li class="header__navbar-item underlined"><a href="#">Home.</a></li>
-						<li class="header__navbar-item underlined"><a href="#">About us.</a></li>
-						<li class="header__navbar-item underlined"><a href="#">Portfolio.</a></li>
-						<li class="header__navbar-item underlined"><a href="#">Blog.</a></li>
-						<li class="header__navbar-item underlined"><a href="#">Contact us.</a></li>
+						<li class="header__navbar-item underlined"><a href="#aboutUs">About us.</a></li>
+						<li class="header__navbar-item underlined"><a href="#portfolio">Portfolio.</a></li>
+						<li class="header__navbar-item underlined"><a href="#portfolio">Blog.</a></li>
+						<li class="header__navbar-item underlined"><a href="#toContact">Contact us.</a></li>
 					</ul>
 				</div>
 
@@ -49,17 +48,17 @@
 					</div>
 					<button class="contact-us">
 						<span>Contact Us</span>
-						<span class="contact-us_arrow"> &#8594;</span>
+						<span class="contact-us_arrow"><!--  &#8594; <--><img src="assets/arrow.png" alt="&#8594;"></--></span>
 					</button>
 				</div>
 			</nav>
 						
 			<div class="header__block-container">
 				<div class="header__title">
-					<h1>The Spirit of Digital Agency.</h1>
+					<h1 id="aboutUs">The Spirit of Digital Agency.</h1>
 					<p> Labore veritatis inventore, provident autem, porro tempore commodi similique obcaecati asperiores quo molestias eius. Necessitatibus, neque.</p>
 					<div class="header__title-buttons">
-						<button class="moreAbout">More About us</button>
+						<button class="moreAbout redRoundButton">More About us</button>
 						<a href="#" class="getInTouch underlined">Get In Touch.</a>
 					</div>
 				</div>
@@ -74,9 +73,10 @@
 		</div>
 	</header>
 
+
 	<div class="portfolio">
 		<div class="container">
-			<h2>See some of our <br> Creative work.</h2>
+			<h2 class="h2-title" id="portfolio">See some of our <br> Creative work.</h2>
 			<div class="portfolio__galery">
 				<div class="portfolio__galery-item"></div>
 				<div class="portfolio__galery-item"></div>
@@ -89,15 +89,47 @@
 		</div>
 	</div>
 
-	<div class="contacts"></div>
+
+	<div class="contacts">
+		<div class="container">
+			<span class="contacts__title">contact us</span>
+			<h2 class="h2-title" id="toContact">Get in Touch</h2>
+			<form action="#" method="post" class="contacts__form">
+				<input name="email" type="email" placeholder="Your email" required>
+				<input name="subject" type="text" placeholder="Subject">
+				<textarea name="message" cols="30" rows="10" placeholder="Message here..." required></textarea>
+				<button class="redRoundButton">Send Message</button>
+			</form>
+		</div>
+	</div> 
 
 
+	<footer class="footer">
+		<span class="footer__doob">doob</span>
+		<h3>creativity above</h3>
+		<ul class="footer__links">
+			<li class="footer__links-item underlined-white"><a href="#">Home.</a></li>
+			<li class="footer__links-item underlined-white"><a href="#aboutUs">About us.</a></li>
+			<li class="footer__links-item underlined-white"><a href="#portfolio">Portfolio.</a></li>
+			<li class="footer__links-item underlined-white"><a href="#portfolio">Blog.</a></li>
+			<li class="footer__links-item underlined-white"><a href="#toContact">Contact us.</a></li>
+		</ul>
+		<span class="footer__authority">&#x24B8; 2019 - Doob,All Right Reserved</span>
+		<div class="footer__social">
+			<a href="#" target="blank" name="facebook"><img src="assets/fb.png" alt="facebook"></a>
+			<a href="#" target="blank" name="twitter"><img src="assets/twit.png" alt="twitter"></a>
+			<a href="#" target="blank" name="dribble"><img src="assets/dribble.png" alt="dribble"></a>
+		</div>
+	</footer>
 
+
+<!-- slick slider -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 		crossorigin="anonymous"></script>
 <script src="slick/slick.min.js"></script>
 
+<!-- animation for language changing -->
 <script src="script/main.js"></script>
 
 <script>

@@ -1,0 +1,16 @@
+.redRoundButton {
+	display: block;
+	width: 198px;
+	height: 54px;
+	border: 2px solid #ff4359;
+	border-radius: 25px;
+	color: #fff;
+	background: #ff4359;
+	cursor: pointer;
+	font-weight: 600;
+	box-shadow: 0 0 15px 2px rgba(228,88,115,.3)
+}
+.redRoundButton:hover {
+	background: #fff;
+	color: #ff4359;
+}
